@@ -95,5 +95,5 @@ open Readme.md
 git commit
 
 
-Added a statement
+Added a statement.
 ```
