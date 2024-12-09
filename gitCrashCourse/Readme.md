@@ -30,7 +30,6 @@ cd GithubExample
 Path: Profile>> Settings>> DeveloperSettings >> Personal Access Token >> Fine-Grained Tokens
 https://github.com/settings/tokens
 09-12-2024
-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
 
 You will use the PAT  as your password when you Login
 -Give it access to Contemts for commits
