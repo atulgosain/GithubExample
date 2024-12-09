@@ -17,23 +17,13 @@ git commit -a -m "add readme file"
 git rest
 ```
 
-### HTTPS
+## HTTPS
 
 
 ```sh 
 git clone: https://github.com/atulgosain/GithubExample.git
 cd GithubExample
 ```
-
-## You'll need to generate a personal Access Token(PAT)
-```
-Path: Profile>> Settings>> DeveloperSettings >> Personal Access Token >> Fine-Grained Tokens
-https://github.com/settings/tokens
-09-12-2024
-
-You will use the PAT  as your password when you Login
--Give it access to Contemts for commits
-
 
 ```
 ## SSH
