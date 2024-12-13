@@ -102,3 +102,4 @@ git commit
 
 Added a statement.
 Line added on 13th Dec and updated.
+<13th Error resolved>
