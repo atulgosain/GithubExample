@@ -18,17 +18,25 @@ git rest
 ```
 
 ## HTTPS
-
-
 ```sh 
+git clone https://github.com/atulgosain/GithubExample.git
 cd GithubExample
 ```
 
-```
+>You will need to generated a personal Access token (PAT)
+https://github.com/settings/token
+
+You will use PAT as your password when you login
+
+-Give it access to contents for Commits
+
 ## SSH
 ```
 need to add ssh details for clone and commit
+git@github.com:atulgosain/GithubExample.git
+cd GithubExample
 ```
+
 
 ## Commit
 When we want to commit code we can write git commit which will open up the commit window in the editor of choice.
