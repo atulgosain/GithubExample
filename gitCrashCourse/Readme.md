@@ -33,10 +33,11 @@ You will use PAT as your password when you login
 ## SSH
 
 ```
-
 need to add ssh details for clone and commit
 git@github.com:atulgosain/GithubExample.git
-cd GithubExample, 
+cd GithubExample
+
+
 ```
 We will create our own ssh rsa key pair
 
