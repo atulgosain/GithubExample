@@ -41,6 +41,13 @@ cd GithubExample
 ```
 We will create our own ssh rsa key pair
 
+## CLI Branch
+Gn auth login
+gh repo clone atulgosain/GithubExample
+
+cat /home/atulgosain/.ssh/alt-github_id_rsa.pub
+
+
 
 
 ## Commit
