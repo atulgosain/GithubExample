@@ -48,7 +48,21 @@ gh repo clone atulgosain/GithubExample
 cat /home/atulgosain/.ssh/alt-github_id_rsa.pub
 
 
+## Branches
+List of Branches
+```
+git branch : to get all the branches
+git -no-pager branch : for only required output and not with multiple lines
+```
+Create a new Branch
+```
+git branch branch-name : to create a new branch with name "new-branch"
+git fetch
+git push --set-upstream origin dev
+or 
+git push -u origin dev
 
+```
 
 ## Commit
 When we want to commit code we can write git commit which will open up the commit window in the editor of choice.
