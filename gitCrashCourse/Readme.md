@@ -37,15 +37,28 @@ need to add ssh details for clone and commit
 git@github.com:atulgosain/GithubExample.git
 cd GithubExample
 
-
 ```
 We will create our own ssh rsa key pair
+cat /home/atulgosain/.ssh/alt-github_id_rsa.pub
+
+## Manage SSH key:
+```
+ssh-add ~/.ssh/github_atul
+
+ssh-add:
+A command to add private SSH keys to the SSH authentication agent (ssh-agent). The SSH agent caches your key so you don't need to repeatedly enter your passphrase when accessing SSH servers (like GitHub).
+
+~/.ssh/github_atul:
+This specifies the private SSH key file you are adding.github_atul is the name of your private key file stored in the ~/.ssh/ directory.
+
+
+```
 
 ## CLI Branch
 Gn auth login
 gh repo clone atulgosain/GithubExample
 
-cat /home/atulgosain/.ssh/alt-github_id_rsa.pub
+
 
 
 ## Branches
