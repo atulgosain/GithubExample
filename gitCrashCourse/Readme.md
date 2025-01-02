@@ -81,7 +81,13 @@ git push -u origin dev
 When we want to commit code we can write git commit which will open up the commit window in the editor of choice.
 
 ```sh
-git commit 
+git commit -m "your message"
+
+git commit -a >> for adding all the changes and commiting it..We dont require "git add ." it is handled here
+
+git commit -am "git message" >> fcimmit with adding all the git changes and writing the commit message.
+
+
 ```
 ## git config file
 When we file istall Git on a machine  you are suppose to setup
@@ -136,6 +142,12 @@ git log --oneline :to get the last log details
 
 ## Push
 When we want to push our changes  
+
+## Change name of folder or file
+```
+mv /Users/atulgosain/gHub/PlayWrightJSRepoWithCli /Users/atulgosain/gHub/PlayWrightJSRepoWithCLI
+
+```
 
 ```
 mkdir /workspaces/tmp/new-project
