@@ -6,6 +6,6 @@
 - tables
 - links
 - images
-- -autolists
+- autolists
 - lists
   
