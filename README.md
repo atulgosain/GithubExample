@@ -11,7 +11,35 @@
 👍, 💣
 🐦‍⬛
 😄
+👧
+🏫
+🍟
+🇮🇳
  
 👏 🏩 
-## Adding a Picture example
-![Pic Added]()  
+<details>
+ <Summary>Tips for collapse sections</Summary>  
+Added text nere within a collapse sections.  
+
+</details>
+
+## Mermaid is a markdown-inspired tool that renders text in diagrams.
+
+```mermaid
+
+GeoJson Or TopoJSON syntax to create interactive maps.
+
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+```
+
+
+## Adding a Picture example 
+![Pic Added]  
+![Fog](https://github.com/user-attachments/assets/fe2a15ab-2059-4069-b069-4b4f68e6cb46)  
+
+<img width="941" alt="GFM_1" src="https://github.com/user-attachments/assets/51056a18-2c3e-44fe-9f54-b7fa102c1bd4" />
+
