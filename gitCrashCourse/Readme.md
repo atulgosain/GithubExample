@@ -1,4 +1,6 @@
+# Study
 ## Cloning
+### clone
 We are using git Hub
 we can clone in three ways:https, SSH, GIThub CLI
 
@@ -18,6 +20,7 @@ git rest
 ```
 
 ## HTTPS
+
 ```sh 
 git clone https://github.com/atulgosain/GithubExample.git
 cd GithubExample
