@@ -5,11 +5,12 @@
 - [text formatting](#text-formating)
 - [code](#code)
 - [tables](#table)
-- BlockQuotes
+- [BlockQuotes](#blockquotes)
 - links 
 - images
 - autolists
 - lists
+- [footnote](#FootNote)
 
 https://github.github.com/gfm/
 
@@ -30,23 +31,30 @@ We can create unOrdered lists in Markdown using hypens.
   
 - foo
 - bar
-+ baz
+- baz
+
++ baz  
++ foo1
++ bar
+
 
 ## Ordered List
-
 1. foo
 2. bar
-3) baz
+3. baz
+
 
 1. foo
 1. bar
 1. baz
+1)  rec
+
 
 ## Text formating
-
 *italics*  
 __bold__  
-**bold**
+**bold**  
+***Bold and Italics*** 
 
 ~~strikethrough~~
 
@@ -54,11 +62,10 @@ __bold__
 ## Code
 
 ### Inline code
-`puts "Hello World"`
+You can print in the terminal using the inline code:`puts "Hello World"`
 
 
-### MultiLine Code
- 
+### MultiLine Code 
 
  ### Without Highlighting
  ```
@@ -67,12 +74,21 @@ __bold__
  end
 ```
 
- ### With HighLighting
-```sh
+ ### With HighLighting 
+ We cann use rb(ruby), sh, json
+```rb
  def hello_world
  puts "Hello World"
  end
 ```
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
 
 ## Table  
 
@@ -91,6 +107,12 @@ __bold__
 | --- | --- |
 | bar |
 | bar | baz | boo |
+
+### No Body just Header
+
+| abc | def |
+| --- | --- |
+
 
 #### Boo is missing as it has extra element
 
@@ -120,4 +142,25 @@ __bold__
 - [x] foo
   - [ ] bar
   - [x] baz
-- [ ] bim
+- [ ] bim  
+
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+## Emojis
+Hi  My name is Atul 
+
+:Atul:
+
+## FootNote
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
