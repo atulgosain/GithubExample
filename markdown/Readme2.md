@@ -14,6 +14,17 @@ This is **bold**, *italic*, and ***both bold and italic*** text.
     1. Substep 2.1
     2. Substep 2.2
 
+## CheckBoxes
+- [x] Selected
+- [ ] Not Selected
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] SubSelect
+  - [x] Selected
+  - [ ] Unselected
+  - [ ] NotSelected 
+
   
 ## This is a blockquote.
 >
