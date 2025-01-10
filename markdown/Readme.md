@@ -6,7 +6,7 @@
 - [code](#code)
 - [tables](#table)
 - [BlockQuotes](#blockquotes)
-- links 
+- [links](#links)
 - images
 - autolists
 - lists
