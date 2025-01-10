@@ -2,41 +2,34 @@
 ---
 This is **bold**, *italic*, and ***both bold and italic*** text.
 
+# Project Title
+
+## Description
+This project does **amazing things**. It's written in `Python`.
+
 ### - Lists
 ---
 - Item 1
   - Subitem 1
-  - Subitem 2
-- Item 2
+  - Subitem 2  
 
+- Item 2
 1. Step 1
 2. Step 2
     1. Substep 2.1
     2. Substep 2.2
 
-## CheckBoxes
-- [x] Selected
-- [ ] Not Selected
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] SubSelect
-  - [x] Selected
-  - [ ] Unselected
-  - [ ] NotSelected 
+
+
 
   
-## This is a blockquote.
+## This is a blockquote
 >
 > - It can contain lists.
 > - Or even **bold text**.
 
 ## Combining Features
 
-# Project Title
-
-## Description
-This project does **amazing things**. It's written in `Python`.
 
 ## Features
 - [x] Feature 1
@@ -45,3 +38,5 @@ This project does **amazing things**. It's written in `Python`.
 ## Usage
 ```bash
 $ python script.py
+
+```
