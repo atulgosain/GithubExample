@@ -113,8 +113,15 @@ You can print in the terminal using the inline code:`puts "Hello World"`
 | abc | def |
 | --- | --- |
 
-
 #### Boo is missing as it has extra element
+
+### Including inside other inline spans  
+
+
+| f\|oo  |
+| ------ |
+| b `\|` az |
+| b **\|** im |
 
 ## BlockQuotes 
 > "The cloud is amazing"  
