@@ -88,7 +88,7 @@ git log --oneline :to get the last log details
 ```
 
 ## Push
-When we want to push our changes  
+When we want to push our changes , just to push edited the file.
 
 ```
 mkdir /workspaces/tmp/new-project
