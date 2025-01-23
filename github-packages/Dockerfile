@@ -1,2 +1,2 @@
-FROM apline.latest
-CMD echo "Hello World"
+FROM alpine:latest
+CMD ["echo", "Hello World"]
