@@ -26,6 +26,8 @@ git clone https://github.com/atulgosain/GithubExample.git
 cd GithubExample
 ```
 
+Adding a line to confirm the push with PR and new branch 8
+
 >You will need to generated a personal Access token (PAT)
 https://github.com/settings/token
 
